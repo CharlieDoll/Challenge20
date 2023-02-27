@@ -1,15 +1,15 @@
 import React from "react";
-import "../styles/Section.css";
+import "../styles/contentSection.css";
 
 const styles = {
-  sectionStyles: {
+  contentSectionStyles: {
     background: "pink",
   },
 };
 
-function Section() {
+function contentSection() {
   return (
-    <section style={styles.sectionStyles} className="section">
+    <section style={styles.contentSectionStyles} className="contentSection">
       <h2>Past Projects</h2>
       <p>Project 1</p>
       <p>Project 2</p>
@@ -18,4 +18,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default contentSection;
