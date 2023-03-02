@@ -1,0 +1,27 @@
+.header {
+    background: #c294ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.secondHeader {
+    text-align: center;
+    background-color: #c294ea;
+}
+
+.secondHeader h1 {
+    margin: 0;
+}
+
+.navbar a {
+    margin: 0px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
