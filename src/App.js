@@ -11,11 +11,11 @@ function App() {
     <div className="portfolio-app">
       <Header />
       <Portfolio />
+      <PortfolioContainer />
       <About id="#About" />
       <PreviousProjects id="#PreviousProjects" />
       <Contact id="#Contact" />
       <Footer />
-      <PortfolioContainer />
     </div>
   );
 }

@@ -5,13 +5,13 @@ import Contact from "./components/Contact";
 import PreviousProjects from "./components/PreviousProjects";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Previous Projects") {
+    if (currentPage === "PreviousProjects") {
       return <PreviousProjects />;
     }
     return <Contact />;
