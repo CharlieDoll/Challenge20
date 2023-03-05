@@ -1,6 +1,6 @@
 import React from "react";
 import filmapedia from "../images/filmapedia.png";
-import rythmn from "../images/rythmn.png";
+import rythmn from "../images/Rythmn.png";
 
 const styles = {
   contentSectionStyles: {

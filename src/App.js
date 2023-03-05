@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import PreviousProjects from "./components/PreviousProjects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import PortfolioContainer from "./PortfolioContainer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PreviousProjects id="#PreviousProjects" />
       <Contact id="#Contact" />
       <Footer />
+      <PortfolioContainer />
     </div>
   );
 }
