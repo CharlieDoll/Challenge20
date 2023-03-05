@@ -1,9 +1,11 @@
 .header {
     background: #c294ea;
+    font-family: fantasy;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    padding-top: 3%;
 }
 
 .header h1 {
@@ -13,6 +15,10 @@
 .secondHeader {
     text-align: center;
     background-color: #c294ea;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 1%;
 }
 
 .secondHeader h1 {

@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Portfolio />
       <About id="#About" />
-      <PreviousProjects id="PreviousProjects" />
-      <Contact id="Contact" />
+      <PreviousProjects id="#PreviousProjects" />
+      <Contact id="#Contact" />
       <Footer />
     </div>
   );

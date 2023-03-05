@@ -1,5 +1,6 @@
 .About {
-    background: #c294ea;
+    background: #e0cdf3;
+    font-family: fantasy;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -13,8 +14,28 @@
 
 .About p {
     margin: 0;
-    /* align-items: center; */
     text-align: center;
 }
 
-.About img {}
+.About div {
+    display: flex;
+    padding: 0 15%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.About div p {
+    width: 50%;
+}
+
+.About div figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.About img {
+    margin: auto;
+    border-radius: 50%;
+}

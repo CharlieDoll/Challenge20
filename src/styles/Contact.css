@@ -1,0 +1,31 @@
+.Contact {
+    background: #bdb0c9;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.Contact h2 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.container div {
+    display: flex;
+    padding: 0 15%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contact img {
+    margin: auto;
+    border-radius: 50%;
+}
