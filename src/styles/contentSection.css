@@ -1,27 +1,44 @@
 .contentSection {
-    background: #8a6b8f;
+    background: #c6a0cb;
     padding: 20px;
     font-family: fantasy;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
+}
+
+.contentSection p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
 }
 
 .contentSection h2 {
-    /* text-align: center; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .contentSection h3 {
     text-align: center;
     align-items: flex-start;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .contentSection img {
     margin: auto;
     border-radius: 5%;
+}
+
+.contentSection div figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 .contentSection div {

@@ -15,7 +15,7 @@ const styles = {
 function contentSection() {
   return (
     <section style={styles.contentSectionStyles} className="contentSection">
-      <h2>Past Projects</h2>
+      <h2>Previous Projects</h2>
       <div>
         <h3>Filmpadia</h3>
         <div>
@@ -30,9 +30,9 @@ function contentSection() {
             Click this link to view the deployed website
           </a>
         </div>
-        <div>
+        <figure>
           <img style={styles.imageStyle} src={filmapedia}></img>
-        </div>
+        </figure>
       </div>
       <h3>Rythmn Review</h3>
       <div>

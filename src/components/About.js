@@ -6,8 +6,8 @@ const styles = {
     background: "lilac",
   },
   imageStyle: {
-    width: "120px",
-    height: "150px",
+    width: "200px",
+    height: "250px",
   },
 };
 

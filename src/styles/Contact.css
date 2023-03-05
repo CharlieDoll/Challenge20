@@ -1,12 +1,14 @@
 .Contact {
-    background: #bdb0c9;
+    background: #dec5f6;
     font-family: fantasy;
     text-align: center;
     padding-top: 3%;
+    margin: 1rem;
 }
 
 .Contact h2 {
     margin: 0;
+    font-size: 2rem;
 }
 
 .container {

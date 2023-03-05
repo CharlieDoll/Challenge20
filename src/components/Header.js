@@ -15,9 +15,9 @@ function Header() {
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Charlie Nunn</h1>
       <nav className="navbar">
-        <a href="#about">About</a>
-        <a>Previous Projects</a>
-        <a>Contact</a>
+        <a href="#About">About</a>
+        <a href="#contentSection">Previous Projects</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </header>
   );

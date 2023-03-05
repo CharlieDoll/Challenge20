@@ -5,16 +5,22 @@
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
-    flex-direction: column
+    flex-direction: column;
+    font-weight: bolder;
+    margin: 1rem;
 }
 
 .About h2 {
     justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .About p {
     margin: 0;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .About div {
