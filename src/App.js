@@ -6,12 +6,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import PortfolioContainer from "./PortfolioContainer";
 import { useState } from "react";
+import backgroundImage from "./images/background.png";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
 
+  const styles = {
+    background: {
+      backgroundImage: `url(${backgroundImage})`,
+    },
+  };
+
   return (
-    <div className="portfolio-app">
+    <div style={styles.background} className="portfolio-app">
       <Header currentPage={currentPage} handlePageChange={setCurrentPage} />
       <Portfolio />
       <PortfolioContainer currentPage={currentPage} />

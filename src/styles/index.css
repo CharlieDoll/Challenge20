@@ -3,3 +3,7 @@
 @import"./Header.css";
 @import"./About.css";
 @import"./Contact.css";
+
+body {
+    margin: 0;
+}

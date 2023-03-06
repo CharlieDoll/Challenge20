@@ -29,9 +29,17 @@
     margin: 0;
 }
 
-.navbar a {
+.nav-item a {
     margin: 0px 10px;
     font-size: 20px;
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav nav-tabs {
+    display: flex;
+    flex-direction: row;
 }

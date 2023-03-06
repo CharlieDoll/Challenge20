@@ -1,8 +1,12 @@
 import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const style = {
+    listStyleType: "none",
+    display: "flex",
+  };
   return (
-    <ul className="nav nav-tabs">
+    <ul style={style} className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#About"
