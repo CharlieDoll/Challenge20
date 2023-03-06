@@ -1,28 +1,38 @@
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import PreviousProjects from "./components/PreviousProjects";
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
-
+export default function PortfolioContainer({ currentPage }) {
   const renderPage = () => {
+    console.log(currentPage);
     if (currentPage === "About") {
-      return <About />;
+      return (
+        <>
+          <a id="About" />
+          <About />
+        </>
+      );
     }
     if (currentPage === "PreviousProjects") {
-      return <PreviousProjects />;
+      return (
+        <>
+          <a id="PreviousProjects" />
+          <PreviousProjects />
+        </>
+      );
     }
-    return <Contact />;
+    if (currentPage === "Contact") {
+      return (
+        <>
+          <a id="Contact" />
+          <Contact />
+        </>
+      );
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  return (
-    <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-    </div>
-  );
+  return <div>{renderPage()}</div>;
 }

@@ -5,16 +5,17 @@ import PreviousProjects from "./components/PreviousProjects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import PortfolioContainer from "./PortfolioContainer";
+import { useState } from "react";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("About");
+
   return (
     <div className="portfolio-app">
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={setCurrentPage} />
       <Portfolio />
-      <PortfolioContainer />
-      <About id="#About" />
+      <PortfolioContainer currentPage={currentPage} />
       <PreviousProjects id="#PreviousProjects" />
-      <Contact id="#Contact" />
       <Footer />
     </div>
   );

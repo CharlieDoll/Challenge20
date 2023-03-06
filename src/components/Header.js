@@ -1,4 +1,5 @@
 import React from "react";
+import NavTabs from "../NavTabs";
 
 const styles = {
   headerStyle: {
@@ -10,15 +11,11 @@ const styles = {
   },
 };
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Charlie Nunn</h1>
-      <nav className="navbar">
-        <a href="#About">About</a>
-        <a href="#contentSection">Previous Projects</a>
-        <a href="#Contact">Contact</a>
-      </nav>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );
 }
