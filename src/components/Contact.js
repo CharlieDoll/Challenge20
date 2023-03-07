@@ -20,6 +20,7 @@ function Contact() {
           <p>Email: cvnunn31@gmail.com</p>
           <p>Tel.: 07710 560 867</p>
           <p>LinkedIn: </p>
+          <p>Github:https://github.com/CharlieDoll</p>
         </div>
         <div>
           <img style={styles.imageStyle} src={social}></img>
