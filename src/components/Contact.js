@@ -6,9 +6,9 @@ const styles = {
     background: "lilac",
   },
   imageStyle: {
-    width: "200px",
-    height: "200px",
-    boxShadow: "0px 0px 5px black",
+    width: "250px",
+    height: "250px",
+    boxShadow: "0px 0px 10px black",
   },
 };
 

@@ -8,8 +8,9 @@ const styles = {
     background: "lilac",
   },
   imageStyle: {
-    width: "175px",
-    height: "140px",
+    width: "200px",
+    height: "170px",
+    boxShadow: "0px 0px 15px black",
   },
 };
 
