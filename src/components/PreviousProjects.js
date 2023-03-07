@@ -1,6 +1,7 @@
 import React from "react";
 import filmapedia from "../images/filmapedia.png";
 import rythmn from "../images/Rythmn.png";
+import themepark from "../images/themepark.png";
 
 const styles = {
   contentSectionStyles: {
@@ -47,6 +48,27 @@ function contentSection() {
         </a>
       </div>
       <img style={styles.imageStyle} src={rythmn}></img>
+      <div>
+        <h3>Roller Ride</h3>
+      </div>
+      <div>
+        <p>
+          This project is a full stack application using MERN. It was designed
+          so that the user could purchase tickets for any theme park, zoo or
+          safari park and view their available options, after creating a user
+          account. It also contained sections on weather, a user blog and
+          available hotels at these locations. As well as a contact section for
+          any help and advice.
+        </p>
+      </div>
+      <div>
+        <a href="https://github.com/HusaamNT/reactRollerRide">
+          Click this link to view the GitHub repository
+        </a>
+        <div>
+          <img style={styles.imageStyle} src={themepark}></img>
+        </div>
+      </div>
     </section>
   );
 }

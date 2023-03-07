@@ -6,8 +6,9 @@ const styles = {
     background: "lilac",
   },
   imageStyle: {
-    width: "150px",
-    height: "150px",
+    width: "200px",
+    height: "200px",
+    boxShadow: "0px 0px 5px black",
   },
 };
 
@@ -19,8 +20,8 @@ function Contact() {
         <div>
           <p>Email: cvnunn31@gmail.com</p>
           <p>Tel.: 07710 560 867</p>
-          <p>LinkedIn: </p>
-          <p>Github:https://github.com/CharlieDoll</p>
+          <p>LinkedIn: www.linkedin.com/in/charlie-nunn-453811249</p>
+          <p>Github: https://github.com/CharlieDoll</p>
         </div>
         <div>
           <img style={styles.imageStyle} src={social}></img>
