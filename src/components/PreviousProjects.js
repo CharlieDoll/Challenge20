@@ -28,9 +28,16 @@ function contentSection() {
           </p>
         </div>
         <div>
-          <a href="https://lacko3006.github.io/Filmapedia/">
-            Click this link to view the deployed website
-          </a>
+          <div>
+            <a href="https://github.com/Lacko3006/Filmapedia">
+              Click this link to view the GitHub repository
+            </a>
+          </div>
+          <div>
+            <a href="https://lacko3006.github.io/Filmapedia/">
+              Click this link to view the deployed website
+            </a>
+          </div>
         </div>
         <figure>
           <img style={styles.imageStyle} src={filmapedia}></img>
@@ -44,9 +51,16 @@ function contentSection() {
         </p>
       </div>
       <div>
-        <a href="https://shrouded-woodland-67381.herokuapp.com/">
-          Click this link to view the deployed website
-        </a>
+        <div>
+          <a href="https://github.com/Lacko3006/all-albums-all-genres">
+            Click this link to view the GitHub repository
+          </a>
+        </div>
+        <div>
+          <a href="https://shrouded-woodland-67381.herokuapp.com/">
+            Click this link to view the deployed website
+          </a>
+        </div>
       </div>
       <img style={styles.imageStyle} src={rythmn}></img>
       <div>
