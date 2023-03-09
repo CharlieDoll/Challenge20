@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Challenge20/static/css/main.e3e8f97b.css",
+    "main.js": "/Challenge20/static/js/main.b193e21c.js",
+    "static/media/Rythmn.png": "/Challenge20/static/media/Rythmn.21917da9ee4855e4b3b4.png",
+    "static/media/background.png": "/Challenge20/static/media/background.582231c60a8f6cdb9288.png",
+    "static/media/themepark.png": "/Challenge20/static/media/themepark.be37e19ffd3fef362efa.png",
+    "static/media/filmapedia.png": "/Challenge20/static/media/filmapedia.866a1ffae8187e15b0fa.png",
+    "static/media/portrait.png": "/Challenge20/static/media/portrait.be46d97226fd6364f5e9.png",
+    "static/media/social.jpg": "/Challenge20/static/media/social.18fe03e3b052dd6934d4.jpg",
+    "index.html": "/Challenge20/index.html",
+    "main.e3e8f97b.css.map": "/Challenge20/static/css/main.e3e8f97b.css.map",
+    "main.b193e21c.js.map": "/Challenge20/static/js/main.b193e21c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e8f97b.css",
+    "static/js/main.b193e21c.js"
+  ]
+}
